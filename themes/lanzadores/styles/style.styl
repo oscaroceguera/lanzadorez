@@ -1,0 +1,45 @@
+@import 'normalize.styl'
+@import "nib"
+
+backgroundColor = #181721
+Naranja = #E15C16
+Gris = #9E9E9E
+
+html
+  background-color backgroundColor
+  font-family Open Sans
+  font-size 16px
+
+body
+	padding 2em 5em
+
+.Header
+	color Naranja
+	display flex
+	align-items center
+	justify-content space-around
+
+.Menu
+	font-size 2em
+	li
+		display inline-block
+		margin 0 1em
+	li:hover
+		border-bottom 1px solid Naranja
+		cursor pointer
+
+.Picture__large
+	width 250px
+
+.Container
+	margin 1em 0
+
+.Text__Description
+	color Gris
+	margin 2em auto
+	width 80%
+
+footer
+	margin 1em 0
+	color Naranja
+	text-align center
