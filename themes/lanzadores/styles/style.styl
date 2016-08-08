@@ -28,7 +28,7 @@ footer
 	font-size 2em
 	li
 		display inline-block
-		margin 0 1em
+		margin-right 1em
 	li:hover
 		border-bottom 1px solid Naranja
 		cursor pointer
@@ -61,10 +61,10 @@ footer
 	margin 2em auto
 	display flex
 	flex-wrap wrap
-	justify-content space-between
+	justify-content space-around
 
 .Post
-	width 23em
+	width 17em
 	margin-bottom 1em
 
 .Post__Title
@@ -76,6 +76,9 @@ footer
 	text-align center
 
 .Post__Picture
+	img
+		width 17em
+
 
 .Post__Footer
 	color white
@@ -86,3 +89,22 @@ footer
 		a
 			text-decoration none
 			color Naranja
+
+
+/*
+** Monitores a 1048px
+*/
+@media screen and (max-width: 1048px)
+	.Menu
+		font-size 1.5em
+
+
+/*
+** Screen a 800px
+*/
+@media screen and (max-width: 800px)
+	.Picture__large
+		width 100px
+
+	.Menu
+		display none

@@ -7,8 +7,8 @@
 			<li>Archivo</li>
 		</nav>
 		<picture class="Picture">
-			<source srcset="<?php bloginfo(template_url); ?>/images/lanzadores-logo.png" media="(min-width: 600px)"/>
-			<img class="Picture__large" src="<?php bloginfo(template_url); ?>/images/test.png" alt="Lanzadores logo" />
+			<source srcset="<?php bloginfo(template_url); ?>/images/lanzadores-logo.png" media="(min-width: 800px)"/>
+			<img class="Picture__large" src="<?php bloginfo(template_url); ?>/images/lanzadores-logo-min.png" alt="Lanzadores logo" />
 		</picture>
 	</header>
 	<main class="Main">
